@@ -1,0 +1,30 @@
+# 综合 / 布局布线产物（每次编译都会变化，不入库）
+*.bit
+*.bin
+*.db
+*.log
+*.logw
+*.timing
+*.rpt
+*.area
+*.qor
+*.ts
+*.status
+*.al~
+
+# TD 运行目录与日志
+td_project/log/
+td_project/*_Runs/
+
+# 开发期备份
+*.bak
+*.bak_*
+
+# 延迟补丁的历史快照（保留在本地，不入库以免与主文件混淆）
+user_source/hdl_source/_lat_v1/
+user_source/hdl_source/_lat_v1_orig/
+
+# 系统文件
+Thumbs.db
+desktop.ini
+.DS_Store
